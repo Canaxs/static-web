@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BABY & CHILD CARE</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css        ">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="js/java.js" async defer></script>
+    </head>
+    <body>
+        <section class="mobile-menu-area">
+            <div class="mobile-menu-top">
+                <div class="mobile-exit">
+                    <i class="fas fa-times-circle" id="exit"></i>
+                </div>
+                <ul>
+                    <li><a href="index.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-middle">
+                <ul>
+                    <li><a href="babychild.html">BABY & CHILD CARE</a></li>
+                    <li><a href="diet.html">DIET & NUTRITION</a></li>
+                    <li><a href="household.html">HOUSEHOLD ITEMS</a></li>
+                    <li><a href="natural.html">NATURAL PRODUCTS</a></li>
+                    <li><a href="health.html">GALLERY</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-bottom">
+                <div class="mobile-menu-search">
+                    <i class="fab fa-searchengin" id="mobile-search"></i>
+                </div>
+            </div>
+        </section>
+        <header>
+            <div class="mobile-menu">
+                <i class="fas fa-caret-square-down" id="mobile-menu-icon"></i>
+            </div>
+            <div class="header-small">
+            <div class="header-left">
+                <div class="header-logo">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-prescription-bottle-alt" id="header-logo-i"></i></td>
+                            <td class="header-h1">Drugstore</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="header-top">
+                    <div class="header-phone">
+                        <table>
+                            <tr>
+                                <td><i class="fas fa-phone" id="header-logo-phone"></i></td>
+                                <td>1-800-234-5677</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="header-search">
+                        <div class="header-search-width"><i class="fas fa-search" id="header-logo-search"></i></div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="header-bottom-2">
+                    <div class="header-menu">
+                        <ul>
+                            <li><a href="index.html">Menu</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-shopping-card" onclick='Shope()'>
+                        <i class="fas fa-shopping-cart" id="shopping-awesome"></i>
+                        <h4 style="color: white;float: right;" id="shoppinge">Shopping:0</h4>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="green-back"></div>
+        </header>
+        <section class="slider">
+            <div class="slider-menu">
+                <ul>
+                    <li><a href="babychild.html">BABY & CHILD CARE</a></li>
+                    <li><a href="diet.html">DIET & NUTRITION</a></li>
+                    <li><a href="household.html">HOUSEHOLD ITEMS</a></li>
+                    <li><a href="natural.html">NATURAL PRODUCTS</a></li>
+                    <li><a href="health.html">GALLERY</a></li>
+                </ul>
+            </div>
+            <div class="slider-content">
+                <div class="slider-item">
+                    <div class="slider-back">
+                        <div class="slider-text">
+                            <p class="slider-1">FIND ANY MEDICINE</p>
+                            <P class="slider-2">YOU NEED !</P>
+                            <a href="#" class="shop-now">SHOP NOW!</a>
+                        </div>
+                        <div class="slider-background"></div>
+                    </div>
+                    <img src="images/1.jpg" alt="pharmacy"/>
+                    </div>
+                <div class="slider-item">
+                    <div class="slider-back">
+                        <div class="slider-text">
+                            <p class="slider-1">FIND ANY MEDICINE</p>
+                            <P class="slider-2">YOU NEED !</P>
+                            <a href="#" class="shop-now">SHOP NOW!</a>
+                        </div>
+                        <div class="slider-background"></div>
+                    </div>
+                    <img src="images/2.jpg" alt="pharmacy"/>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-back">
+                        <div class="slider-text">
+                            <p class="slider-1">FIND ANY MEDICINE</p>
+                            <P class="slider-2">YOU NEED !</P>
+                            <a href="#" class="shop-now">SHOP NOW!</a>
+                        </div>
+                        <div class="slider-background"></div>
+                    </div>
+                    <img src="images/3.jpg" alt="pharmacy"/>
+                </div>
+            </div>
+
+        </section>
+        <section class="shop-dom" id="shop-dom">
+            <div id="shop-dom-50-baby">
+            </div>
+        </section>
+        <script>
+            window.onload = function() {
+            var babychild =["Urinonvef Cranberry","Osteozinc","Urinonvef Cranberry","Urinonvef Cranberry"];
+                var babychildimage = ["medicine1","medicine2","medicine1","medicine2"];
+                var babychildmoney = [12,15,12,15];
+                var babychildcounter = 0;
+                var babymedicines = 0;
+                var usebaby = "";
+                var usbaby = "";
+                for(var i = 0;i<babychild.length;i++) {
+                    babychildcounter++;
+                }
+                babychildcounter = babychildcounter / 4;
+                for(var i = 0;i<babychildcounter;i++){
+                    for(var k = 0;k<4;k++){
+                        if(babychild[babymedicines] != undefined){
+                            usebaby += "<div class='shop-box'><div class='shop-box-image'><image src='images/"+babychildimage[babymedicines]+".jpg'/></div><div class='shop-box-text'><h3>"+babychild[babymedicines]+"</h3><p>"+babychildmoney[babymedicines]+"$</p><a href='#' class='sepetekle' onclick='medicinem("+babychildmoney[babymedicines]+")'>Sepete Ekle</a></div></div>";
+                           babymedicines++;
+                        }
+                    }
+                    usbaby += "<div class='shop-box-4'>"+usebaby+"</div>";
+                    usebaby="";
+                }
+                console.log(usbaby);
+                document.getElementById("shop-dom-50-baby").innerHTML= usbaby;
+            }
+        </script>
+        
+    </body>
+</html>
